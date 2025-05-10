@@ -22,6 +22,7 @@
     </p>
     <pre><code>git --version</code></pre>
     <p><em>Screenshot: A terminal showing the installed Git version.</em></p>
+    <img src="images/checking-git.png" alt="check-if-git-is-installed" width="400">
     <p>
       If Git is not installed, you can download it from the official website: <a href="https://git-scm.com/downloads">git-scm.com</a>. Choose the version for your operating system and follow the setup instructions.
     </p>
@@ -34,6 +35,7 @@
 git config --global user.name "Willan Kiplagat"
 git config --global user.email "willankpl01@gmail.com"
     </code></pre>
+    <img src="images/cofiguration.png" alt="configuration" width="400">
     <p><em>Screenshot: Commands being entered in the terminal with your name and email.</em></p>
 
     <h2>Initializing a Git Repository</h2>
@@ -42,21 +44,26 @@ git config --global user.email "willankpl01@gmail.com"
     </p>
     <pre><code>git init</code></pre>
     <p><em>Screenshot: Git initializing in a folder.</em></p>
+    <img src="images/Initialization.png" alt="initializatin"    width="400">
 
     <h2>Committing Changes</h2>
     <p>
       A commit saves the current state of your files. First, stage your changes:
     </p>
     <pre><code>git add .</code></pre>
+    <img src="images/Screenshot 2025-05-10 151517.png" alt="add" width="400">
     <p>Then commit them with a meaningful message:</p>
     <pre><code>git commit -m "Initial commit with basic setup"</code></pre>
     <p>
       Use clear, descriptive commit messages. To view past commits:
     </p>
+    <img src="images/commit.png" alt="commit" width="400">
     <pre><code>git log</code></pre>
     <p>To revert to a previous commit:</p>
+    <img src="images/Screenshot 2025-05-10 151942.png" alt="log" width="300">
     <pre><code>git checkout [commit-id]</code></pre>
     <p><em>Screenshot: Git log and checkout commands in action.</em></p>
+    <img src="images/Screenshot 2025-05-10 152238.png" alt="300" height="100">
 
     <h2>Branches</h2>
     <p>
@@ -64,21 +71,26 @@ git config --global user.email "willankpl01@gmail.com"
     </p>
 
     <h2>Creating a Branch</h2>
+    
     <p>
       View all branches with:
     </p>
     <pre><code>git branch</code></pre>
+    <img src="images/checking-availabe-branch.png" alt="check branch"  width="400">
     <p>
       Create a new branch with:
     </p>
     <pre><code>git branch feature-login</code></pre>
     <p><em>Screenshot: Output showing current and new branches.</em></p>
+    <img src="images/Screenshot 2025-05-10 153117.png" alt="create " width="400">
 
     <h2>Switching Active Branches</h2>
     <p>
       To switch to another branch:
     </p>
+
     <pre><code>git checkout feature-login</code></pre>
+    <img src="images/switching-branch.png" alt="switch" width="400">
     <p><em>Screenshot: Switched from main to feature-login.</em></p>
 
     <h2>Merging a Branch</h2>
@@ -89,6 +101,7 @@ git config --global user.email "willankpl01@gmail.com"
 git checkout main
 git merge feature-login
     </code></pre>
+    <img src="images/merging-of-branch.png" alt="merge" width="350">
     <p><em>Screenshot: Merge output showing success.</em></p>
 
     <h2>Deleting a Branch</h2>
@@ -96,6 +109,7 @@ git merge feature-login
       Once a branch is merged and no longer needed, delete it:
     </p>
     <pre><code>git branch -d feature-login</code></pre>
+    <img src="images/deletion-of-branch.png" alt="delete" width="400">
     <p><em>Screenshot: Confirmation that the branch was deleted.</em></p>
 
     <h2>Next Steps</h2>
